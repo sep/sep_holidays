@@ -19,7 +19,7 @@ class Date
         Date.new(2012, 9, 3),   #Labor Day
         Date.new(2012, 11, 22), #Thanksgiving (2 days)
         Date.new(2012, 11, 23),
-        Date.new(2012, 12, 24), #Christmast (5 days)
+        Date.new(2012, 12, 24), #Christmas (5 days)
         Date.new(2012, 12, 25),
         Date.new(2012, 12, 26),
         Date.new(2012, 12, 27),
