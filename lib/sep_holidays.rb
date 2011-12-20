@@ -1,7 +1,7 @@
 require 'date'
 
 class Date
-    SEP_HOLIDAYS = {
+    SEP_HOLIDAYS = [
         Date.new(2010, 12, 31), #New Year's Day
         Date.new(2011, 5, 30),  #Memorial Day
         Date.new(2011, 7, 4),   #Independence Day
@@ -24,7 +24,7 @@ class Date
         Date.new(2012, 12, 26),
         Date.new(2012, 12, 27),
         Date.new(2012, 12, 28),
-    }
+    ]
 
     def is_sep_holiday?
         SEP_HOLIDAYS.include? self
