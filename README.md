@@ -14,7 +14,7 @@ Mixin for `Date` to add the `is_sep_holiday?` method.
 Holidays are up-to-date through 2013 currently.
 
 
-===
+******
 
 Development
 
