@@ -1,0 +1,15 @@
+PATH
+  remote: .
+  specs:
+    sep_holidays (0.0.3)
+
+GEM
+  specs:
+    minitest (2.11.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest
+  sep_holidays!
