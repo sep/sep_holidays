@@ -42,12 +42,12 @@ class Date
     SEP_HOLIDAYS.map{|h| h.date}.include? self
   end 
   
-  def next_sep_holiday(date)
-    next_holidays = SEP_HOLIDAYS.drop_while {|h| h.date < date}
+  def next_sep_holiday
+    next_holidays = SEP_HOLIDAYS.drop_while {|h| h.date < self}
 
     next_holiday = next_holidays.first
 
-    return next_holiday if next_holiday.date != date
+    return next_holiday if next_holiday.date != self
 
     next_holidays.drop_while {|h| h.name == next_holiday.name}.first
   end 
