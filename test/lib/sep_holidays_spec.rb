@@ -29,4 +29,16 @@ describe "SEP company holidays" do
       assert d.is_sep_holiday?
     end
   end
+
+  describe "#next_sep_holiday" do
+    it "should be thanksgiving on nov 2" do
+      d = Date.new(2012, 11, 2)
+      assert_equal d.next_sep_holiday(d).name, "Thanksgiving"
+    end
+
+    it "should be new years on christmas" do
+      d = Date.new(2012, 12, 25)
+      assert_equal d.next_sep_holiday(d).name, "New Year's"
+    end
+  end
 end

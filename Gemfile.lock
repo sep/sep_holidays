@@ -4,11 +4,13 @@ PATH
     sep_holidays (0.0.3)
 
 GEM
+  remote: http://rubygems.org/
   specs:
-    minitest (2.11.3)
+    minitest (4.1.0)
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   minitest
