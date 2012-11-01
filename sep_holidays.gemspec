@@ -10,5 +10,6 @@ Gem::Specification.new do |s|
   s.test_files  =  Dir.glob('test/lib/*.rb')
   s.homepage    = 'https://github.com/sep/sep_holidays'
 
+  s.add_development_dependency 'rake'
   s.add_development_dependency 'minitest'
 end
