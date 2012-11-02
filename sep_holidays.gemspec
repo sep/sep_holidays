@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'sep_holidays'
-  s.version     = '0.0.3'
+  s.version     = '0.0.4'
   s.date        = '2011-12-19'
   s.summary     = "Date mixin for SEP company holidays"
   s.description = "Extend Date with a mixin to check if a date is an SEP company holiday"
