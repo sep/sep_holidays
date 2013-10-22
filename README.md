@@ -1,4 +1,3 @@
-
 ```ruby
 require 'sep_holidays'
 
@@ -11,7 +10,7 @@ d.is_sep_holiday? #=> false
     
 Mixin for `Date` to add the `is_sep_holiday?` method.
 
-Holidays are up-to-date through 2013 currently.
+Holidays are up-to-date through 2014 currently.
 
 
 ******
