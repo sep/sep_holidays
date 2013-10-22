@@ -36,6 +36,17 @@ class Date
     OpenStruct.new(date: Date.new(2013, 12, 25), name: "Christmas"),
     OpenStruct.new(date: Date.new(2013, 12, 26), name: "Christmas"),
     OpenStruct.new(date: Date.new(2013, 12, 27), name: "Christmas"),
+    OpenStruct.new(date: Date.new(2014, 1, 1), name: "New Year's"),
+    OpenStruct.new(date: Date.new(2014, 5, 26), name: "Memorial Day"),
+    OpenStruct.new(date: Date.new(2014, 7, 4), name: "Independence Day"),
+    OpenStruct.new(date: Date.new(2014, 9, 1), name: "Labor Day"),
+    OpenStruct.new(date: Date.new(2014, 11, 27), name: "Thanksgiving"),
+    OpenStruct.new(date: Date.new(2014, 11, 28), name: "Thanksgiving"),
+    OpenStruct.new(date: Date.new(2014, 12, 24), name: "Christmas"),
+    OpenStruct.new(date: Date.new(2014, 12, 25), name: "Christmas"),
+    OpenStruct.new(date: Date.new(2014, 12, 26), name: "Christmas"),
+    OpenStruct.new(date: Date.new(2014, 12, 29), name: "Christmas"),
+    OpenStruct.new(date: Date.new(2014, 12, 30), name: "Christmas"),
   ]
 
   def is_sep_holiday?
