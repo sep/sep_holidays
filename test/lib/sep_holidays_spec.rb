@@ -28,6 +28,11 @@ describe "SEP company holidays" do
       d = Date.new(2013, 9, 2)
       assert d.is_sep_holiday?
     end
+
+    it "should handle 2014 holidays" do
+      d = Date.new(2014, 7, 4)
+      assert d.is_sep_holiday?
+    end
   end
 
   describe "#next_sep_holiday" do
